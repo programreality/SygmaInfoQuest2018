@@ -1,0 +1,217 @@
+body {
+    font: 400 18px 'Open Sans', sans-serif;
+    line-height: 1.8;
+      overflow-x:hidden;
+}
+#bg img{
+      max-width: 500px;
+}
+@media (max-width:571px) {
+  #bg img{
+    max-width: 250px;
+  }
+}
+
+@media(max-width:960px){
+  .vcontainer{
+    padding-right:3rem;
+    padding-left:3rem;
+  }
+}
+a{
+  text-decoration: none;
+}
+.navbar-brand { position: relative; z-index: 2; font-family: 'Play', sans-serif; font-size: 25px; font-weight: 700;}
+
+.navbar-nav.navbar-right .btn { position: relative; z-index: 2; padding: 4px 20px; margin: 10px auto; }
+
+.navbar .navbar-collapse { position: relative; }
+
+.navbar .nav-collapse { position: absolute; z-index: 1; top: 0; left: 0; right: 0; bottom: 0; margin: 0; padding-right: 120px; padding-left: 80px; width: 100%; }
+.navbar.navbar-default .nav-collapse { background-color: #f8f8f8; }
+.navbar.navbar-inverse .nav-collapse { background-color: #222; }
+.navbar .nav-collapse .navbar-form { border-width: 0; box-shadow: none; }
+
+
+.btn.btn-circle { border-radius: 50px; }
+.btn.btn-outline { background-color: transparent; }
+
+@media screen and (max-width: 767px) {
+    .navbar .nav-collapse { margin: 7.5px auto; padding: 0; }
+    .navbar .nav-collapse .navbar-form { margin: 0; }
+    .nav-collapse>li { float: none; }
+}
+.navbar .navbar-default{
+  margin-bottom: 0px;
+}
+.navbar{
+  text-transform: uppercase;
+}
+.navbar-default .navbar-brand {
+    color: #070935;
+}
+.main-container{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+.bg-grey {
+    background-color: #f6f6f6;
+}
+.bg-black{
+  color: white;
+  background-color: #2B2B2B;
+}
+.jumbotron {
+    background-color: #2B2B2B;
+    color: #DE1B1B;
+    padding: 100px 25px;
+    font-family: Montserrat, sans-serif;
+}
+/*Showcase Header Css Section 1*/
+#showcase{
+  background-image: url('../imgs/bg.png');
+  background-color: #2B2B2B;
+  background-size:cover;
+  background-position:center;
+  height:100vh;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  text-align:center;
+  padding:0 20px;
+  text-align:center;
+
+   position:relative;
+   background-position:center;
+   background-size:cover;
+   background-repeat:no-repeat;
+
+ /*
+   fixed = parallax
+   scroll = normal
+ */
+ background-attachment:fixed;
+ color: white;
+}
+
+#showcase img{
+      max-width: 500px;
+}
+@media (max-width:571px) {
+  #showcase img{
+    max-width: 250px;
+  }
+}
+@media (max-height:648px) {
+  #showcase img{
+    max-width: 250px;
+  }
+}
+#register{
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+#register .material-icons{
+  color: #070935;
+}
+/*Section 2 css About College*/
+#about-college{
+  padding-top: 50px;
+  padding-bottom: 50px;
+  line-height: 2;
+}
+#about-college h1{
+  font-size: 50px;
+}
+
+/*Section 3 css About Sygma*/
+#about-sygma{
+  background-color:#070935;
+}
+#about-sygma h1{
+  font-size: 50px;
+}
+/*Section 4 css About Events*/
+#events{
+  padding: 30px;
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  text-transform: capitalize;
+}
+
+#events h1{
+  font-size: 50px;
+}
+
+#events p{
+  font-style: italic;
+}
+#events a{
+  text-decoration: none;
+  color: white;
+}
+#demo{
+  font-size: 50px;
+}
+
+#register{
+  font-size: 20px;
+}
+/*Section 5 css Conact Us*/
+#contact{
+  background-image: url('../imgs/newbg/img5.png');
+   position:relative;
+   background-position:center;
+   background-size:cover;
+   background-repeat:no-repeat;
+min-height:400px;
+ /*
+   fixed = parallax
+   scroll = normal
+ */
+ background-attachment:fixed;
+ color: black;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ line-height: 2;
+ color:white;
+  border-top:#333 7px solid;
+  border-bottom:#333 7px solid;
+  font-weight: bold;
+}
+
+#contact h1{
+  font-size: 40px;
+}
+footer .glyphicon {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+footer p{
+  white-space: pre-line;
+}
+footer a{
+  text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+  .col-sm-4 {
+    text-align: center;
+    margin: 25px 0;
+  }
+  .btn-lg {
+      width: 100%;
+      margin-bottom: 35px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .logo {
+      font-size: 150px;
+  }
+}

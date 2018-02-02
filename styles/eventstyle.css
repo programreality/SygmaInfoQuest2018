@@ -1,0 +1,28 @@
+.eventimg .img-responsive {
+    margin: 0 auto;
+}
+.event-image{
+  background-image:url('../imgs/eventBg.jpg');
+  min-height:400px;
+  position:relative;
+
+  background-position:center;
+  background-size:cover;
+  background-repeat:no-repeat;
+
+  /*
+    fixed = parallax
+    scroll = normal
+  */
+  background-attachment:fixed;
+  padding: 50px;
+}
+.navbar{
+  margin-bottom: 0px;
+}
+.event-name{
+  color: white;
+}
+footer h3{
+  text-transform: uppercase;
+}
